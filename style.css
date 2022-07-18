@@ -246,7 +246,12 @@ hr {
     margin-top: 50px;
     margin-bottom: 100px;
 }
-
+.main-bannar2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .main-bannar-left2 {
     width: 50%;
     display: flex;
