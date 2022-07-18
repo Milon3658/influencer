@@ -131,6 +131,7 @@ hr{
     display: grid;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 50px;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
     justify-items: center;
@@ -188,4 +189,48 @@ hr{
     width: 10px;
     padding: 5px;
     color: #FB8200;
+}
+/* cccccccccc */
+/* All Product done  */
+/*xxxxxxxxxxxxxxxxx */
+
+.see-more{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    color: rgba(224, 44, 109, 0.87);
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+.see-more h3{
+    font-size: 1em;
+    margin-right: 10px;
+}
+/* } */
+/* Feature */
+/*  */
+#feature{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.main-bannar-left2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.main-bannar-right2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.join-now{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 44px;
+    width: 155px;
+    background-color: rgba(224, 44, 109, 1);
+    border-radius: 5px;
+    color: white !important;
 }
