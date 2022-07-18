@@ -1,0 +1,113 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Montserrat&family=Poppins:wght@100;400&display=swap');
+
+
+/*  */
+/* Utilities */
+/*  */
+
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-nav h3 {
+    font-weight: 43.75em;
+    font-size: 1.5em;
+    color: rgba(58, 58, 58, 1);
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-nav h4 {
+    padding: 20px;
+    font-weight: 600px;
+    font-size: 1em;
+    color: rgba(58, 58, 58, 1);
+}
+
+.fa-magnifying-glass,
+.fa-cart-arrow-down {
+    font-size: 1.2em;
+    color: rgba(58, 58, 58, 1);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*  */
+/* Bannar Design */
+/*  */
+/* Button */
+.preebook-button {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 44px;
+    width: 195px;
+    background-color: rgba(224, 44, 109, 1);
+    border-radius: 41px;
+    color: white !important;
+}
+.button-title{
+    padding-left: 10px;
+}
+.btn-logo{
+    padding-right:10px;
+}
+
+/* Button End */
+#Bannar{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main-bannar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-bannar-left {
+    width: 50%;
+}
+.main-bannar-left h1{
+    font-weight: 700px;
+    font-size: 2.5em;
+    color: rgba(58, 58, 58, 1);
+}
+.main-bannar-left p{
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgba(58, 58, 58, 1);
+}
+.main-bannar-right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+/* ------------- */
+/* main bannar end */
+/* ------------- */
+.sponsour{
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
