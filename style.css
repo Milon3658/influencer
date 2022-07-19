@@ -10,6 +10,7 @@ body {
     margin-top: 20px;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -328,15 +329,17 @@ footer p {
     body{
         margin-right: 0px;
         margin-left: 0px;
+        margin-bottom: 0px;
     }
     .menu-bar {
-        display: flex;
+        display:flex;
     }
 
     nav {
-
+        margin-left: 8%;
+        margin-right: 8%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .right-nav {
@@ -347,8 +350,12 @@ footer p {
         display: flex;
     }
 
+    #Bannar{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     .main-bannar {
-        margin: 0;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -356,13 +363,13 @@ footer p {
         order: 0;
     } */
     .main-bannar-left {
-        width: 90%;
+        width: 100%;
     }
 
     .main-bannar-right img {
-        order: 0;
-        padding-left: 10%;
-        padding-right: 10%;
+        /* width: 80%; */
+        margin-left: 10%;
+        margin-right: 10%;
     }
     /* main bannar end */
 
@@ -381,7 +388,8 @@ footer p {
         grid-template-columns: repeat(1, 1fr);
     }
     .main-bannar2{
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -389,8 +397,6 @@ footer p {
     }
     .main-bannar2-left2{
         width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
     }
     .main-bannar2-right2{
         width: 80%;
