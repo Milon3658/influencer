@@ -121,11 +121,8 @@ hr {
 .sponsour {
     margin-left: 70px;
     margin-right: 70px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
    
 }
 
@@ -252,13 +249,13 @@ hr {
     justify-content: space-between;
     align-items: center;
 }
-.main-bannar-left2 {
+.main-bannar2-left2 {
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-.main-bannar-right2 {
+.main-bannar2-right2 {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -319,6 +316,7 @@ footer p {
 @media screen and (max-width:688px) {
     body {
         margin: 0;
+        scroll-margin-right: 0;
     }
 
     .menu-bar {
@@ -360,7 +358,11 @@ footer p {
 
 
     .sponsour{
-        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+        justify-content: center;
+        align-items: center;
     }
 
     .all-products{
@@ -372,5 +374,20 @@ footer p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .main-bannar2-left2{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .main-bannar2-right2{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    footer{
+
+        width: 100%;
+        margin: 0;
     }
 }
